@@ -1,0 +1,71 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow:ital@1&family=Dancing+Script&family=Kalam:wght@300&family=Lobster&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Archivo Narrow', sans-serif;
+
+}
+
+
+body{
+	width: 100%;
+	height: 100vh;
+	background: bisque;
+	
+
+}
+.logo{
+	color: #5654b3;
+   
+	
+}
+.logo h2{
+font-weight: normal;
+	font-size: 19px;
+	align-items: ;
+}
+header{
+	border-bottom: 1px solid #5654b3;
+	background: bisque;
+	width: 100%;
+	height: 70px;
+	display: flex;
+	justify-content: space-between;
+	padding: 10px;
+	align-items: center;
+	flex-wrap: wrap;
+
+}
+.menu{
+	list-style: none;
+	 display: flex;
+}
+.menu li a{
+	color:#5654b3;
+	text-decoration: none;
+	display: block;
+	margin-left: 35px;
+	border-radius: 10px;
+	text-transform: uppercase;
+	
+
+}
+.menu li a:hover{
+	color: white;
+	display: block;
+	text-decoration: none;
+	background: #5654b3 ;
+	margin-left: 10px;
+}
+.fundo{
+
+background-image: url("../imagens/6cd4938cc2c48292c576fa04e4227cd0.gif");
+
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+	background-position:left center;
+}
